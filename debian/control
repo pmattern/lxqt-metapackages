@@ -1,0 +1,84 @@
+Source: lxqt-metapackages
+Section: metapackages
+Priority: optional
+Maintainer: Debian LXQt Maintainers <lxqt-debian@lists.lxde.org>
+Uploaders:
+ Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.lxqt.org/
+#Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxde-metapackages.git
+#Vcs-Git: git://git.lxde.org/git/debian/lxde-metapackages.git
+
+Package: lxqt-core
+Architecture: all
+Depends:
+ ${misc:Depends},
+ lxqt-common-qt5,
+ lxqt-panel-qt5,
+#---------------------
+ desktop-file-utils,
+ openbox,
+ pcmanfm-qt5,
+Recommends:
+ gksu,
+ lxqt-session-qt5,
+ qterminal-qt5 | x-terminal-emulator,
+ xscreensaver
+Suggests:
+ qupzilla | www-browser,
+ lxqt,
+ lxqt-launcher-qt5
+Description: Metapackage for the LXQt core
+ The Lightweight X11 Desktop Environment (LXQt) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage depends on the recommended core components
+ of the LXQt. It includes pcmanfm-qt, lxqt-panel, lxqt-session, openbox
+ and xscreensaver.
+ .
+ If you just want to pick and choose the core components then feel free
+ to remove this package.
+
+Package: lxqt
+Architecture: all
+Depends:
+ ${misc:Depends},
+ lxqt-core,
+ lxqt-about-qt5,
+ lxqt-admin-qt5,
+ lxqt-config-qt5,
+ lxqt-globalkeys-qt5,
+ lxqt-notificationd-qt5,
+ lxqt-openssh-askpass-qt5,
+ lxqt-policykit-qt5,
+ lxqt-powermanagement-qt5,
+ lxqt-qtplugin-qt5,
+ lxqt-runner-qt5,
+ lxqt-session-qt5,
+#-----------
+ obconf-qt5,
+ qterminal-qt5,
+ xarchiver
+Recommends:
+ pavucontrol,
+ screengrab-qt5,
+ qlipper,
+# deluge | transmission-gtk,
+# gucharmap,
+ qupzilla | x-www-browser,
+ lightdm | x-display-manager,
+ clementine | qmmp,
+Suggests:
+ nomacs,
+ quassel | quassel-client,
+Description: Metapackage for LXQt
+ The Lightweight X11 Desktop Environment (LXQt) is a project aimed
+ to provide a Qt desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage depends on the core components and
+ recommended components of the LXQt. It includes lxqt-core, lxqt-appearance,
+ lxqt-input, lxqt-session, qterminal, lxqt-config xarchiver.
+ .
+ If you just want to pick and choose the core components then feel free
+ to remove this package.
