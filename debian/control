@@ -16,10 +16,10 @@ Depends:
  ${misc:Depends},
  lxqt-common-qt5,
  lxqt-panel-qt5,
+ pcmanfm-qt5,
 #---------------------
  desktop-file-utils,
- openbox,
- pcmanfm-qt5,
+ openbox | x-wwindow-manager,
 Recommends:
  gksu,
  lxqt-session-qt5,
@@ -28,7 +28,8 @@ Recommends:
 Suggests:
  qupzilla | www-browser,
  lxqt,
- lxqt-launcher-qt5
+ lxqt-runner-qt5,
+ lxqt-session-qt5,
 Description: Metapackage for the LXQt core
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -63,9 +64,11 @@ Depends:
 Recommends:
  pavucontrol,
  screengrab-qt5,
+ smplayer,
+ smtube,
  qlipper,
 # deluge | transmission-gtk,
-# gucharmap,
+ gucharmap,
  qupzilla | x-www-browser,
  lightdm | x-display-manager,
  clementine | qmmp,

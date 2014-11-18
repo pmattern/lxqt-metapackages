@@ -1,6 +1,5 @@
-lxqt-metapackages (2014.11.15) unstable; urgency=low
+lxqt-metapackages (0.8.0-1) unstable; urgency=low
 
-  [ Daniel Baumann ]
   * Initial release.
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 15 Nov 2014 17:37:44 +0100
