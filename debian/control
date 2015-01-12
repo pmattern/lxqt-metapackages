@@ -14,22 +14,22 @@ Package: lxqt-core
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-common-qt5,
- lxqt-panel-qt5,
- pcmanfm-qt5,
-#---------------------
+ lxqt-common,
+ lxqt-panel,
+ pcmanfm,
+# ----
  desktop-file-utils,
  openbox | x-wwindow-manager,
 Recommends:
  gksu,
- lxqt-session-qt5,
- qterminal-qt5 | x-terminal-emulator,
+ lxqt-session,
+ qterminal | x-terminal-emulator,
  xscreensaver
 Suggests:
  qupzilla | www-browser,
  lxqt,
- lxqt-runner-qt5,
- lxqt-session-qt5,
+ lxqt-runner,
+ lxqt-session,
 Description: Metapackage for the LXQt core
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -46,24 +46,24 @@ Architecture: all
 Depends:
  ${misc:Depends},
  lxqt-core,
- lxqt-about-qt5,
- lxqt-admin-qt5,
- lxqt-config-qt5,
- lxqt-globalkeys-qt5,
- lxqt-notificationd-qt5,
- lxqt-openssh-askpass-qt5,
- lxqt-policykit-qt5,
- lxqt-powermanagement-qt5,
- lxqt-qtplugin-qt5,
- lxqt-runner-qt5,
- lxqt-session-qt5,
-#-----------
- obconf-qt5,
- qterminal-qt5,
+ lxqt-about,
+ lxqt-admin,
+ lxqt-config,
+ lxqt-globalkeys,
+ lxqt-notificationd,
+ lxqt-openssh-askpass,
+ lxqt-policykit,
+ lxqt-powermanagement,
+ lxqt-qtplugin,
+ lxqt-runner,
+ lxqt-session,
+# ----
+ obconf-qt,
+ qterminal,
  xarchiver
 Recommends:
  pavucontrol,
- screengrab-qt5,
+ screengrab,
  smplayer,
  smtube,
  qlipper,
