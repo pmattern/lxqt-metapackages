@@ -14,22 +14,21 @@ Package: lxqt-core
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-common,
- lxqt-panel,
- pcmanfm,
-# ----
+ lxqt-common (>= 0.8.1),
+ lxqt-panel (>= 0.8.1),
+ lxqt-session (>= 0.8.1),
+ pcmanfm-qt,
+# ---- 
  desktop-file-utils,
- openbox | x-wwindow-manager,
+ openbox | x-window-manager,
 Recommends:
  gksu,
- lxqt-session,
  qterminal | x-terminal-emulator,
  xscreensaver
 Suggests:
  qupzilla | www-browser,
  lxqt,
  lxqt-runner,
- lxqt-session,
 Description: Metapackage for the LXQt core
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -45,10 +44,11 @@ Package: lxqt
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-core,
- lxqt-about,
- lxqt-admin,
- lxqt-config,
+ lximage-qt,
+ lxqt-core (>= 0.8.1),
+ lxqt-about (>= 0.8.1),
+ lxqt-admin (>= 0.8.1),
+ lxqt-config (>= 0.8.1),
  lxqt-globalkeys,
  lxqt-notificationd,
  lxqt-openssh-askpass,
@@ -56,7 +56,6 @@ Depends:
  lxqt-powermanagement,
  lxqt-qtplugin,
  lxqt-runner,
- lxqt-session,
 # ----
  obconf-qt,
  qterminal,
@@ -67,7 +66,6 @@ Recommends:
  smplayer,
  smtube,
  qlipper,
-# deluge | transmission-gtk,
  gucharmap,
  qupzilla | x-www-browser,
  lightdm | x-display-manager,
@@ -81,7 +79,7 @@ Description: Metapackage for LXQt
  .
  This package is a metapackage depends on the core components and
  recommended components of the LXQt. It includes lxqt-core, lxqt-appearance,
- lxqt-input, lxqt-session, qterminal, lxqt-config xarchiver.
+ lxqt-input, qterminal, lxqt-config xarchiver.
  .
  If you just want to pick and choose the core components then feel free
  to remove this package.
