@@ -1,3 +1,9 @@
+lxqt-metapackages (0.8.1-5) UNRELEASED; urgency=medium
+
+  * debian maintainers and copyright 2015 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Jan 2015 03:40:03 +0100
+
 lxqt-metapackages (0.8.1-4) experimental; urgency=medium
 
   * new targets maintainer-clean and get-orig-source
