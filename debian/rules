@@ -3,3 +3,16 @@
 %:
 	dh ${@}
 
+
+maintainer-clean:
+	$(RM) -r checkout
+	$(RM) *.build
+	$(RM) *.changes
+	$(RM) *.deb
+	$(RM) *.dsc
+	$(RM) *.tar.gz
+	$(RM) *.upload
+
+checkout: maintainer-clean
+	mkdir checkout
+	cp -a debian checkout

@@ -14,22 +14,21 @@ Package: lxqt-core
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-common-qt5,
- lxqt-panel-qt5,
- pcmanfm-qt5,
-#---------------------
+ lxqt-common (>= 0.9.0),
+ lxqt-panel (>= 0.9.0),
+ lxqt-session (>= 0.9.0),
+ pcmanfm-qt,
+# ---- 
  desktop-file-utils,
- openbox | x-wwindow-manager,
+ openbox | x-window-manager,
 Recommends:
  gksu,
- lxqt-session-qt5,
- qterminal-qt5 | x-terminal-emulator,
+ qterminal | x-terminal-emulator,
  xscreensaver
 Suggests:
  qupzilla | www-browser,
  lxqt,
- lxqt-runner-qt5,
- lxqt-session-qt5,
+ lxqt-runner,
 Description: Metapackage for the LXQt core
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -45,29 +44,28 @@ Package: lxqt
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-core,
- lxqt-about-qt5,
- lxqt-admin-qt5,
- lxqt-config-qt5,
- lxqt-globalkeys-qt5,
- lxqt-notificationd-qt5,
- lxqt-openssh-askpass-qt5,
- lxqt-policykit-qt5,
- lxqt-powermanagement-qt5,
- lxqt-qtplugin-qt5,
- lxqt-runner-qt5,
- lxqt-session-qt5,
-#-----------
- obconf-qt5,
- qterminal-qt5,
+ lximage-qt,
+ lxqt-core (>= 0.9.0),
+ lxqt-about (>= 0.9.0),
+ lxqt-admin (>= 0.9.0),
+ lxqt-config (>= 0.9.0),
+ lxqt-globalkeys (>= 0.9.0),
+ lxqt-notificationd (>= 0.9.0),
+ lxqt-openssh-askpass (>= 0.9.0),
+ lxqt-policykit (>= 0.9.0),
+ lxqt-powermanagement (>= 0.9.0),
+ lxqt-qtplugin (>= 0.9.0),
+ lxqt-runner (>= 0.9.0),
+# ----
+ obconf-qt,
+ qterminal,
  xarchiver
 Recommends:
  pavucontrol,
- screengrab-qt5,
+ screengrab,
  smplayer,
  smtube,
  qlipper,
-# deluge | transmission-gtk,
  gucharmap,
  qupzilla | x-www-browser,
  lightdm | x-display-manager,
@@ -81,7 +79,7 @@ Description: Metapackage for LXQt
  .
  This package is a metapackage depends on the core components and
  recommended components of the LXQt. It includes lxqt-core, lxqt-appearance,
- lxqt-input, lxqt-session, qterminal, lxqt-config xarchiver.
+ lxqt-input, qterminal, lxqt-config xarchiver.
  .
  If you just want to pick and choose the core components then feel free
  to remove this package.
