@@ -1,3 +1,10 @@
+lxqt-metapackages (0.9.0-3) unstable; urgency=medium
+
+  * move obconf-qt to recommends
+  * add lxqt-sudo without version right now
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 14 Jun 2015 00:13:01 +0200
+
 lxqt-metapackages (0.9.0-2) unstable; urgency=medium
 
   * add lximage-qt minimum version

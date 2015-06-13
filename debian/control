@@ -14,7 +14,7 @@ Package: lxqt-core
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-common (>= 0.9.0),
+ lxqt-common (>= 0.9.1),
  lxqt-panel (>= 0.9.0),
  lxqt-session (>= 0.9.0),
  pcmanfm-qt (>= 0.9.0),
@@ -56,11 +56,12 @@ Depends:
  lxqt-powermanagement (>= 0.9.0),
  lxqt-qtplugin (>= 0.9.0),
  lxqt-runner (>= 0.9.0),
+ lxqt-sudo,
 # ----
- obconf-qt,
  qterminal,
  xarchiver
 Recommends:
+ obconf-qt,
  pavucontrol,
  screengrab,
  smplayer,
@@ -68,8 +69,8 @@ Recommends:
  qlipper,
  gucharmap,
  qupzilla | x-www-browser,
- lightdm | x-display-manager,
- clementine | qmmp,
+ sddm | lightdm | x-display-manager,
+ audacioud | clementine | qmmp,
 Suggests:
  nomacs,
  quassel | quassel-client,
