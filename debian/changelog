@@ -1,11 +1,5 @@
-lxqt-metapackages (0.9.0-1) unstable; urgency=low
-
-  * debian maintainers and copyright 2015 
+lxqt-metapackages (0.9.0-1) unstable; urgency=medium
+  * initial release 
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 08 Feb 2015 23:13:46 +0100
 
-lxqt-metapackages (0.8.0-1) unstable; urgency=low
-
-  * Initial release.
-
- -- Alf Gaida <agaida@siduction.org>  Sat, 15 Nov 2014 17:37:44 +0100
