@@ -70,7 +70,7 @@ Recommends:
  gucharmap,
  qupzilla | x-www-browser,
  sddm | lightdm | x-display-manager,
- audacioud | clementine | qmmp,
+ audacious | clementine | qmmp,
 Suggests:
  nomacs,
  quassel | quassel-client,

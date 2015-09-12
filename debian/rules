@@ -6,6 +6,7 @@
 
 maintainer-clean:
 	$(RM) -r checkout
+	$(RM) -r backport
 	$(RM) *.build
 	$(RM) *.changes
 	$(RM) *.deb
@@ -16,3 +17,6 @@ maintainer-clean:
 checkout: maintainer-clean
 	mkdir checkout
 	cp -a debian checkout
+
+backport: checkout
+	mv checkout backport
