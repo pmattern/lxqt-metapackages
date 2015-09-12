@@ -1,5 +1,6 @@
 lxqt-metapackages (0.9.0-1) unstable; urgency=medium
-  * initial release 
+
+  * initial release (Closes: #795803)
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 08 Feb 2015 23:13:46 +0100
 
