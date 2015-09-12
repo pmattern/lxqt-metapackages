@@ -1,34 +1,29 @@
 Source: lxqt-metapackages
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>
 Section: metapackages
 Priority: optional
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
-Uploaders:
- Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Homepage: http://www.lxqt.org/
-Vcs-Git: git://anonscm.debian.org/pkg-lxqt/lxqt-meta.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-lxqt/liblxqt.git
+Vcs-Git: git://anonscm.debian.org/pkg-lxqt/lxqt-meta.git
+Homepage: http://www.lxqt.org/
 
 Package: lxqt-core
 Architecture: all
-Depends:
- ${misc:Depends},
- lxqt-common (>= 0.9.1),
- lxqt-panel (>= 0.9.0),
- lxqt-session (>= 0.9.0),
- pcmanfm-qt (>= 0.9.0),
-# ---- 
- desktop-file-utils,
- openbox | x-window-manager,
-Recommends:
- gksu,
- qterminal | x-terminal-emulator,
- xscreensaver
-Suggests:
- qupzilla | www-browser,
- lxqt,
- lxqt-runner,
+Depends: ${misc:Depends},
+         lxqt-common,
+         lxqt-panel (>= 0.9.0),
+         lxqt-session (>= 0.9.0),
+         pcmanfm-qt,
+         desktop-file-utils,
+         openbox | x-window-manager
+Recommends: gksu,
+            qterminal | x-terminal-emulator,
+            xscreensaver
+Suggests: qupzilla | www-browser,
+          lxqt,
+          lxqt-runner
 Description: Metapackage for the LXQt core
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -42,38 +37,34 @@ Description: Metapackage for the LXQt core
 
 Package: lxqt
 Architecture: all
-Depends:
- ${misc:Depends},
- lximage-qt (>= 0.4.0),
- lxqt-core (>= 0.9.0),
- lxqt-about (>= 0.9.0),
- lxqt-admin (>= 0.9.0),
- lxqt-config (>= 0.9.0),
- lxqt-globalkeys (>= 0.9.0),
- lxqt-notificationd (>= 0.9.0),
- lxqt-openssh-askpass (>= 0.9.0),
- lxqt-policykit (>= 0.9.0),
- lxqt-powermanagement (>= 0.9.0),
- lxqt-qtplugin (>= 0.9.0),
- lxqt-runner (>= 0.9.0),
- lxqt-sudo,
-# ----
- qterminal,
- xarchiver
-Recommends:
- obconf-qt,
- pavucontrol,
- screengrab,
- smplayer,
- smtube,
- qlipper,
- gucharmap,
- qupzilla | x-www-browser,
- sddm | lightdm | x-display-manager,
- audacious | clementine | qmmp,
-Suggests:
- nomacs,
- quassel | quassel-client,
+Depends: ${misc:Depends},
+         lximage-qt (>= 0.4.0),
+         lxqt-core (>= 0.9.0),
+         lxqt-about,
+         lxqt-admin,
+         lxqt-config (>= 0.9.0),
+         lxqt-globalkeys,
+         lxqt-notificationd,
+         lxqt-openssh-askpass,
+         lxqt-policykit,
+         lxqt-powermanagement,
+         lxqt-qtplugin,
+         lxqt-runner (>= 0.9.0),
+         lxqt-sudo,
+         qterminal,
+         xarchiver
+Recommends: obconf-qt,
+            pavucontrol,
+            screengrab,
+            smplayer,
+            smtube,
+            qlipper,
+            gucharmap,
+            qupzilla | x-www-browser,
+            sddm | lightdm | x-display-manager,
+            audacious | clementine | qmmp
+Suggests: nomacs,
+          quassel | quassel-client
 Description: Metapackage for LXQt
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a Qt desktop environment which is lightweight and fast.
