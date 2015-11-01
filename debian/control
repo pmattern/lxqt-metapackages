@@ -13,18 +13,18 @@ Package: lxqt-core
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-common,
-         lxqt-panel (>= 0.9.0),
-         lxqt-session (>= 0.9.0),
+         lxqt-panel,
+         lxqt-session,
          pcmanfm-qt,
          desktop-file-utils,
-         openbox | x-window-manager
-Recommends: gksu,
-            qterminal | x-terminal-emulator,
+         openbox|x-window-manager
+Recommends: lxqt-sudo|gksu,
+            qterminal|x-terminal-emulator,
             xscreensaver
-Suggests: qupzilla | www-browser,
+Suggests: qupzilla|www-browser,
           lxqt,
           lxqt-runner
-Description: Metapackage for the LXQt core
+Description: Metapackage for the LXQt (core)
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a desktop environment which is lightweight and fast.
  .
@@ -38,33 +38,36 @@ Description: Metapackage for the LXQt core
 Package: lxqt
 Architecture: all
 Depends: ${misc:Depends},
-         lximage-qt (>= 0.4.0),
-         lxqt-core (>= 0.9.0),
+         lximage-qt,
+         lxqt-core,
          lxqt-about,
          lxqt-admin,
-         lxqt-config (>= 0.9.0),
+         lxqt-config,
          lxqt-globalkeys,
          lxqt-notificationd,
          lxqt-openssh-askpass,
          lxqt-policykit,
          lxqt-powermanagement,
          lxqt-qtplugin,
-         lxqt-runner (>= 0.9.0),
+         lxqt-runner,
          lxqt-sudo,
          qterminal,
          xarchiver
-Recommends: obconf-qt,
+Recommends: audacious|clementine|qmmp,
+            compton,
+            compton-conf,
+            gucharmap,
+            obconf-qt,
             pavucontrol,
+            qlipper,
+            qtpass,
+            qupzilla|x-www-browser,
             screengrab,
+            sddm|lightdm|x-display-manager,
             smplayer,
             smtube,
-            qlipper,
-            gucharmap,
-            qupzilla | x-www-browser,
-            sddm | lightdm | x-display-manager,
-            audacious | clementine | qmmp
 Suggests: nomacs,
-          quassel | quassel-client
+          quassel|quassel-client|hexchat
 Description: Metapackage for LXQt
  The Lightweight X11 Desktop Environment (LXQt) is a project aimed
  to provide a Qt desktop environment which is lightweight and fast.

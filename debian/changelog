@@ -1,3 +1,10 @@
+lxqt-metapackages (0.9.0-6) unstable; urgency=medium
+
+  * some rework and license change to LGPL-2.1
+  * qtpass added
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 01 Nov 2015 05:14:15 +0100
+
 lxqt-metapackages (0.9.0-5) unstable; urgency=medium
 
   * rebuild 
