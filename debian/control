@@ -5,8 +5,8 @@ Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-lxqt/liblxqt.git
-Vcs-Git: git://anonscm.debian.org/pkg-lxqt/lxqt-meta.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-lxqt/liblxqt.git/?h=debian/sid
+Vcs-Git: git://anonscm.debian.org/pkg-lxqt/lxqt-meta.git -b debian/sid
 Homepage: http://www.lxqt.org/
 
 Package: lxqt-core
