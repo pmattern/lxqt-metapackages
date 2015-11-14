@@ -1,4 +1,4 @@
-lxqt-metapackages (0.9.0-1) unstable; urgency=medium
+lxqt-metapackages (0) unstable; urgency=medium
 
   * initial release (Closes: #795803)
 
