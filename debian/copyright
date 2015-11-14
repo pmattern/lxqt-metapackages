@@ -1,9 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lxqt-metapackages
-Source: http://packages.qa.debian.org/l/lxqt-metapackages.html
+Source: https://tracker.debian.org/pkg/lxqt-metapackages
 
 Files: *
 Copyright: 2014-2015 Alf Gaida <agaida@siduction.org>
+           2015 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 License: GPL-2
 
 License: GPL-2
