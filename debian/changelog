@@ -2,5 +2,4 @@ lxqt-metapackages (0) unstable; urgency=medium
 
   * initial release (Closes: #795803)
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 08 Feb 2015 23:13:46 +0100
-
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 14 Nov 2015 10:18:21 +0800
