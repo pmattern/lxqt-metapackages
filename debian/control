@@ -1,6 +1,7 @@
 Source: lxqt-metapackages
 Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
-Uploaders: Alf Gaida <agaida@siduction.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org> 
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 9)
