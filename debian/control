@@ -40,7 +40,7 @@ Package: lxqt
 Architecture: all
 Depends: ${misc:Depends},
          lximage-qt,
-         lxqt-core (>= ${source:Version}),
+         lxqt-core (= ${source:Version}),
          lxqt-about,
          lxqt-admin,
          lxqt-config,
