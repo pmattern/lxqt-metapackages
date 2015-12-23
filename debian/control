@@ -26,15 +26,13 @@ Suggests: qupzilla | www-browser,
           lxqt,
           lxqt-runner
 Description: Metapackage for the LXQt core
- The Lightweight X11 Desktop Environment (LXQt) is a project aimed
- to provide a desktop environment which is lightweight and fast.
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
  .
- This package is a metapackage depends on the recommended core components
- of the LXQt. It includes pcmanfm-qt, lxqt-panel, lxqt-session, openbox
- and xscreensaver.
- .
- If you just want to pick and choose the core components then feel free
- to remove this package.
+ This package is a metapackage meant to provide the core components
+ of LXQt. These include pcmanfm-qt, lxqt-panel, lxqt-session and openbox.
 
 Package: lxqt
 Architecture: all
@@ -67,12 +65,11 @@ Recommends: obconf-qt,
 Suggests: nomacs,
           quassel | quassel-client
 Description: Metapackage for LXQt
- The Lightweight X11 Desktop Environment (LXQt) is a project aimed
- to provide a Qt desktop environment which is lightweight and fast.
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
  .
- This package is a metapackage depends on the core components and
- recommended components of the LXQt. It includes lxqt-core, lxqt-appearance,
- lxqt-input, qterminal, lxqt-config xarchiver.
- .
- If you just want to pick and choose the core components then feel free
- to remove this package.
+ This package is a metapackage meant to provide the core components
+ of LXQt plus some recommended components. These include lxqt-core, lxqt-appearance,
+ lxqt-input, qterminal, lxqt-config and xarchiver.
